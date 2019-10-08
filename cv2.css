@@ -1,0 +1,95 @@
+body {margin:0;}
+p 
+{
+    font-family: 'Francois One', sans-serif;
+}
+
+/*Grid container */
+.grid-container 
+{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    align-content: end;
+    grid-template-rows: auto auto;
+    grid-gap: 1px;
+    padding: 0.5px;
+    box-shadow: 1px 3px 5px 1px rgb(179, 177, 177);
+}
+  
+.grid-container > div 
+{
+
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+  
+}
+
+/*Barre de navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(247, 244, 244);
+;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(173, 173, 173);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(247, 244, 244);
+}
+
+.active {
+  background-color: #ff5e57;
+}
+
+#prenom
+{
+    float : left;
+}
+/*Photo*/
+.photoCv 
+{
+    border-radius: 1%;
+    border-color: white;
+    width : 15%;
+    margin-left : 20%;
+    margin-top : 1%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/* Nom et prénom */
+.nomPrenom
+{
+    font-family: 'Francois One', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size : 190%;
+    width: 55%;
+    float: right;
+    margin-top:6%;
+    margin-right: 7%;
+    
+}
+
+.div1
+{
+    background-color: #ff5e57;
+}
