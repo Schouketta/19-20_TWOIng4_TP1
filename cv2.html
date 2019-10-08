@@ -7,6 +7,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="cv2.css" rel="stylesheet" type="text/css" />
 
         <meta charset="utf-8"/>
@@ -18,12 +20,12 @@
     <body>
 
         <!--Barre de navigation-->
-        <ul>
-            <li id="prenom"><a href="#news"><bold>Sarah Le</bold></a></li>
-            <li><a class="active" href="#home">Mon CV</a></li>
-            <li><a href="#news">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
+        <ul class="navbar">
+            <li class="libar" id="prenom"><a href="#news"><bold>Sarah Le</bold></a></li>
+            <li class="libar"><a class="active" href="#home">Mon CV</a></li>
+            <li class="libar"><a href="#news">Projets</a></li>
+            <li class="libar"><a href="#contact">Contact</a></li>
+            <li class="libar"><a href="#about">About</a></li>
         </ul>
 
         
@@ -33,7 +35,9 @@
                         <header>
                                 <img src="cvphoto.png" alt="photo" class="photoCv">
                                 <aside class="nomPrenom">
-                                    Sarah Le
+                                    Sarah Le<br>
+                                    <a href="https://www.linkedin.com/in/sarah-le-835869150/?originalSubdomain=fr" class="fa fa-linkedin"></a>
+                                    <a href="#" class="fa fa-instagram"></a>
                                 </aside>
                                 
                             </header>
@@ -41,11 +45,38 @@
 
                 </div>
 
-                <div>
+                <div class="div2">
 
+                
+                    <!-- Timeline-->
+                    <h4 class="titre">Formation</h4>
 
+                    <div class="timeline">
 
+                            <article class="container right">
+                              <section class="content">
+                                <h5>2016 - 2021</h5>
+                                <p class="textePetit">4ème année en école d’ingénieurs, majeure Objets Connectés Réseaux et Services, ECE Paris Lyon 75015</p>
+                              </section>
+                            </article>
 
+                            <article class="container right">
+                                <section class="content">
+                                    <h5>2018</h5>
+                                    <p class="textePetit">Semestre à l’étranger dans le cadre du cursus ingénieur, Keimyung University Daegu, Corée du Sud</p>
+                                </section>
+                            </article>
+
+                            <article class="container right">
+                                    <section class="content">
+                                        <h5>2016</h5>
+                                        <p class="textePetit">Baccalauréat Scientifique spécialité Mathématiques, Lycée Jean Vilar, Plaisir 78370</p>
+                                    </section>
+                            </article>
+                            
+                        </div>
+                        <!--Fin timeline-->
+                    
                 </div>
             </div>
 
